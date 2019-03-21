@@ -16,21 +16,70 @@ body {
     background-image: linear-gradient(to bottom, #51789b, #51789b 50%, white 50%);
     background-attachment: fixed;
     background-repeat: no-repeat;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 .description {
-    width: 35%;
-    background-color: aliceblue;
-    margin-left: 50px;
+    margin-left: 30px;
     padding: 20px;
 }
 
+/* content section*/
 .header {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    background-image: linear-gradient(#1c5380, white);
+    border-color: #06365f;
+    padding: 5px;
+    color: white;
+}
+
+.content {
+    /* background-image: url('../images/frame.png');
+    background-repeat: no-repeat; */
+    border-radius: 5px;
+    background-color: white;
+    padding: 35px;
+}
+
+.title {
+    font-size: 22px;
+    color: #1c5380;
+    margin-bottom: 20px;
+}
+
+.teaser {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+/* footer section */
+.footer {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.footer-link {
+    color: #1c5380;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 15px;
 }
